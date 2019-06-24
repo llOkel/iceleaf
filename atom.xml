@@ -6,7 +6,7 @@
   <link href="/iceleaf/atom.xml" rel="self"/>
   
   <link href="https://zh-ice.github.io/iceleaf/"/>
-  <updated>2019-06-24T08:07:46.322Z</updated>
+  <updated>2019-06-24T08:56:07.131Z</updated>
   <id>https://zh-ice.github.io/iceleaf/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>java-import excel</title>
+    <title>java</title>
     <link href="https://zh-ice.github.io/iceleaf/2019/06/24/java%E9%97%B2%E8%B0%88/"/>
     <id>https://zh-ice.github.io/iceleaf/2019/06/24/java闲谈/</id>
-    <published>2019-06-24T08:07:46.322Z</published>
-    <updated>2019-06-24T08:07:46.322Z</updated>
+    <published>2019-06-24T08:56:07.130Z</published>
+    <updated>2019-06-24T08:56:07.131Z</updated>
     
-    <content type="html"><![CDATA[<p>java导入excel</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">.xls文件可以使用 new HSSFWorkbook()方法取得excel的信息</span><br><span class="line">.xlsx文件可以使用 new XSSFWorkbook()方法取得excel的信息</span><br><span class="line"></span><br><span class="line">例如: book = new HSSFWorkbook(repayInfoFile.getInputStream());</span><br><span class="line"> 或者 book = new XSSFWorkbook(repayInfoFile.getInputStream());</span><br></pre></td></tr></table></figure><p>java日期类型转换</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">格式 yyyy-MM-dd HH:mm:ss </span><br><span class="line">y 年份 ?-?</span><br><span class="line">M 月份 1-12</span><br><span class="line">d 日期 1-31</span><br><span class="line">H 小时 0-23</span><br><span class="line">m 分钟 0-59</span><br><span class="line">s 秒钟 0-59  </span><br><span class="line">SimpleDateFormat fmt = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;);</span><br><span class="line">fmt.parse() 将String类型转换成Date类型</span><br><span class="line">fmt.format() 将Date类型转换成String类型</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>java导入excel</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">.xls文件可以使用 new HSSFWorkbook()方法取得excel的信息</span><br><span class="line">.xlsx文件可以使用 new XSSFWorkbook()方法取得excel的信息</span><br><span class="line"></span><br><span class="line">例如: book = new HSSFWorkbook(repayInfoFile.getInputStream());</span><br><span class="line"> 或者 book = new XSSFWorkbook(repayInfoFile.getInputStream());</span><br></pre></td></tr></table></figure><p>java日期类型转换</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">格式 yyyy-MM-dd HH:mm:ss </span><br><span class="line">y 年份 ?-?</span><br><span class="line">M 月份 1-12</span><br><span class="line">d 日期 1-31</span><br><span class="line">H 小时 0-23</span><br><span class="line">m 分钟 0-59</span><br><span class="line">s 秒钟 0-59  </span><br><span class="line">SimpleDateFormat fmt = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;);</span><br><span class="line">fmt.parse() 将String类型转换成Date类型</span><br><span class="line">fmt.format() 将Date类型转换成String类型</span><br></pre></td></tr></table></figure><p>输入数值类型自动匹配类型</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">例如: </span><br><span class="line">输入1.0 则会返回 1.0 double</span><br><span class="line">输入1 则会返回 1 int</span><br><span class="line">DecimalFormat df = new DecimalFormat(&quot;0.###&quot;);</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
