@@ -6,7 +6,7 @@
   <link href="/iceleaf/atom.xml" rel="self"/>
   
   <link href="https://llokel.github.io/iceleaf/"/>
-  <updated>2019-06-24T07:33:53.449Z</updated>
+  <updated>2019-06-24T07:46:24.370Z</updated>
   <id>https://llokel.github.io/iceleaf/</id>
   
   <author>
@@ -17,19 +17,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://llokel.github.io/iceleaf/2019/06/24/hello-world/"/>
-    <id>https://llokel.github.io/iceleaf/2019/06/24/hello-world/</id>
-    <published>2019-06-24T07:33:53.448Z</published>
-    <updated>2019-06-24T07:33:53.449Z</updated>
+    <title>java-import excel</title>
+    <link href="https://llokel.github.io/iceleaf/2019/06/24/java%E9%97%B2%E8%B0%88/"/>
+    <id>https://llokel.github.io/iceleaf/2019/06/24/java闲谈/</id>
+    <published>2019-06-24T07:46:24.370Z</published>
+    <updated>2019-06-24T07:46:24.370Z</updated>
     
-    <content type="html"><![CDATA[<hr><h2 id="看图说话"><a href="#看图说话" class="headerlink" title="看图说话"></a>看图说话</h2><p>######<img src="/iceleaf/images/pic.jpg" alt="avatar"></p><p>#<img src="/iceleaf/images/pic.png" alt></p>]]></content>
+    <content type="html"><![CDATA[<p>java导入excel</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">.xls文件可以使用 new HSSFWorkbook()方法取得excel的信息</span><br><span class="line">.xlsx文件可以使用 new XSSFWorkbook()方法取得excel的信息</span><br><span class="line">例如:</span><br><span class="line">    Workbook book = null;</span><br><span class="line">    if (com.rongdu.cashloan.core.common.util.StringUtil.isNotBlank(repayInfoFile.getOriginalFilename())</span><br><span class="line">&amp;&amp; repayInfoFile.getOriginalFilename().endsWith(&quot;.xls&quot;)) &#123;</span><br><span class="line">book = new HSSFWorkbook(repayInfoFile.getInputStream());</span><br><span class="line">&#125; else if (com.rongdu.cashloan.core.common.util.StringUtil.isNotBlank(repayInfoFile.getOriginalFilename())</span><br><span class="line">&amp;&amp; repayInfoFile.getOriginalFilename().endsWith(&quot;.xlsx&quot;)) &#123;</span><br><span class="line">book = new XSSFWorkbook(repayInfoFile.getInputStream());</span><br><span class="line">&#125; else &#123;</span><br><span class="line">logger.error(&quot;文件格式错误&quot; + repayInfoFile.getOriginalFilename());</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;hr&gt;&lt;h2 id=&quot;看图说话&quot;&gt;&lt;a href=&quot;#看图说话&quot; class=&quot;headerlink&quot; title=&quot;看图说话&quot;&gt;&lt;/a&gt;看图说话&lt;/h2&gt;&lt;p&gt;######&lt;img src=&quot;/iceleaf/images/pic.jpg&quot; alt=&quot;avatar&quot;&gt;&lt;/p&gt;
+        &lt;p&gt;java导入excel&lt;/p&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/sp
       
     
     </summary>
@@ -38,13 +38,20 @@
   </entry>
   
   <entry>
-    <title>没有标题的标题</title>
+    <title>看图说话</title>
     <link href="https://llokel.github.io/iceleaf/2019/06/24/talking/"/>
     <id>https://llokel.github.io/iceleaf/2019/06/24/talking/</id>
     <published>2019-06-24T07:18:40.000Z</published>
-    <updated>2019-06-24T07:19:29.693Z</updated>
+    <updated>2019-06-24T07:43:37.618Z</updated>
+    
+    <content type="html"><![CDATA[<p>#<img src="/iceleaf/images/pic.jpg" alt></p><p>#<img src="/iceleaf/images/pic.png" alt></p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;#&lt;img src=&quot;/iceleaf/images/pic.jpg&quot; alt&gt;&lt;/p&gt;&lt;p&gt;#&lt;img src=&quot;/iceleaf/images/pic.png&quot; alt&gt;&lt;/p&gt;
+      
     
     </summary>
     
