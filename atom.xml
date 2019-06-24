@@ -3,14 +3,14 @@
   <title>Hexo</title>
   
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="/iceleaf/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://llokel.github.io/iceleaf/"/>
   <updated>2019-06-24T03:42:50.141Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://llokel.github.io/iceleaf/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>ice-leaf</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/06/24/hello-world/"/>
-    <id>http://yoursite.com/2019/06/24/hello-world/</id>
+    <link href="https://llokel.github.io/iceleaf/2019/06/24/hello-world/"/>
+    <id>https://llokel.github.io/iceleaf/2019/06/24/hello-world/</id>
     <published>2019-06-24T03:42:50.141Z</published>
     <updated>2019-06-24T03:42:50.141Z</updated>
     
